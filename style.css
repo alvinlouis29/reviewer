@@ -140,10 +140,6 @@ div.search-box {
   margin-top: 7px;
 }
 
-.main-container > div:nth-child(3) {
-  margin-left: auto;
-}
-
 .search-container {
   display: inline-flex;
   justify-content: center;
@@ -198,12 +194,16 @@ div.search-box {
   padding: 0;
 }
 
-.grid-container  > div {
+.grid-container > div {
   background-color: #f9f9f9;
   text-align: center;
   padding: 10px 0;
   font-size: 30px;
   padding-bottom: 200px;
+}
+
+.main-container > div:nth-child(3) {
+  margin-left: auto;
 }
 
 .flex-details {
@@ -244,7 +244,7 @@ div.search-box {
 }
 
 .btn {
-  background-color: #cc0000;
+  background-color: #c00;
   color: #fff;
   font-size: 14px;
   font-weight: 500;
@@ -273,9 +273,7 @@ div.search-box {
 
 .inner-grid {
   display: grid;
-  grid-template-areas: 
-  'thumbnail description'
-   ;
+  grid-template-areas: 'thumbnail description';
 }
 
 .top-grid {
@@ -306,7 +304,6 @@ div.search-box {
 
 .pic {
   margin-top: -5px;
-
 }
 
 .description {
